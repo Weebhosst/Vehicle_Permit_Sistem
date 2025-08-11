@@ -1,0 +1,23 @@
+{
+  "name": "vehicle-permit-system",
+  "version": "1.0.0",
+  "description": "A system for managing vehicle permits with barcode generation.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "csv-parser": "^3.0.0",
+    "barcode-generator": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "ts-node": "^10.4.0",
+    "nodemon": "^2.0.15"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
